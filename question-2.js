@@ -1,17 +1,3 @@
-// question-1:
-
-function describeValue(data) {
-  let checkingTruthiness;
-  if (data) {
-    checkingTruthiness = "truthy";
-  } else {
-    checkingTruthiness = "falsy";
-  }
-  return typeof data + " | " + checkingTruthiness;
-}
-
-// question-2 :
-
 function getDayType(dayName) {
   switch (dayName.toLowerCase()) {
     case "friday":
@@ -29,3 +15,5 @@ function getDayType(dayName) {
       return "Invalid Day";
   }
 }
+
+console.log(getDayType("elopelo day"));
