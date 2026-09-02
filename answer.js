@@ -45,7 +45,7 @@ function validateUsername(userName) {
 
 // question-4:444444444444444444444444444444444444444444444444444444444444
 
-function getCngFare(distance, isNight = false, waitingMinutes) {
+function getCngFare(distance, isNight = false, waitingMinutes=0) {
   let fare;
   if (distance <= 2) {
     fare = 50;
