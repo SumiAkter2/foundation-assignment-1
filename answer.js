@@ -1,3 +1,11 @@
 // question-1:
 
-console.log("answer 1 here");
+function describeValue(data) {
+  let checkingTruthiness;
+  if (data) {
+    checkingTruthiness = "truthy";
+  } else {
+    checkingTruthiness = "falsy";
+  }
+  return typeof data + " | " + checkingTruthiness;
+}
