@@ -1,4 +1,4 @@
-// question-1:
+// question-1: 1111111111111111111111111111111111111111111111111111111
 
 function describeValue(data) {
   let checkingTruthiness;
@@ -10,7 +10,7 @@ function describeValue(data) {
   return typeof data + " | " + checkingTruthiness;
 }
 
-// question-2 :
+// question-2 :222222222222222222222222222222222222222222222222222222222222222
 
 function getDayType(dayName) {
   switch (dayName.toLowerCase()) {
@@ -30,7 +30,7 @@ function getDayType(dayName) {
   }
 }
 
-//question-3:
+//question-3:33333333333333333333333333333333333333333333333333333333333333
 
 function validateUsername(userName) {
   if (userName.length < 4) {
@@ -43,7 +43,7 @@ function validateUsername(userName) {
   return "Available";
 }
 
-// question-4:
+// question-4:444444444444444444444444444444444444444444444444444444444444
 
 function getCngFare(distance, isNight = false, waitingMinutes) {
   let fare;
@@ -62,7 +62,7 @@ function getCngFare(distance, isNight = false, waitingMinutes) {
   return fare;
 }
 
-//question-5 :
+//question-5 :55555555555555555555555555555555555555555555555555555555555555555555
 const getChaseVerdict = (target, scored, ballsLeft) => {
   let runsNeeded = target - scored;
   let requiredRate;
